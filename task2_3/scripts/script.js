@@ -88,3 +88,9 @@ const merge = (arrFirst, arrSecond) => {
   }
   return [...arrSort, ...arrFirst.slice(i), ...arrSecond.slice(j)];
 };
+
+alert(bubbleSort(unsortedArray));
+alert(selectionSort(unsortedArray));
+alert(insertionSort(unsortedArray));
+alert(quickSort(unsortedArray));
+alert(mergeSort(unsortedArray));
